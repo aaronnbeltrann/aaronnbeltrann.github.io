@@ -1,0 +1,71 @@
+body {
+    font-family: 'Consolas';
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #000, #1a081d) no-repeat fixed;
+    background-size: 100% 100%;
+    color: #fff;
+    height: 100vh;
+}
+
+section {
+    margin-top: 200px;
+    margin-left: 200px;
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+section h1 {
+    
+    margin-bottom: 0px;
+    color: #fff;
+    font-size: 2rem;
+}
+
+section h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #fff;
+}
+
+.first-name {
+    color: #fff;
+    font-size: 4rem;
+}
+
+.last-name {
+    color: #00f; /* Adjust the color as needed */
+    font-size: 4rem;
+}
+
+.A {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.typing-text {
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+img {
+    max-width: 20%; /* Make sure the image doesn't exceed its container width */
+    margin-top: 200px;
+    margin-left: 100px; /* Adjust the margin as needed */
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    section {
+        width: 80%; /* Full width on smaller screens */
+    }
+}
+
+
+
+
